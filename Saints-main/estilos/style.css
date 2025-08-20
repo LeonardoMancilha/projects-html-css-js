@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    background-color: lightgray;
+}
+
+header {
+    background-color: #808080be;
+
+}
+
+header > h1 {
+    padding: 21px;
+    text-align: center;
+}
+
+#burguer {
+    background-color: rgb(48, 48, 48);
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#burguer:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+menu {
+    display: none;
+}
+
+menu > ul {
+    list-style-type: none;
+}
+
+menu a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(128, 128, 128, 0.762);
+    color: #fff;
+    border-top: 2px solid #808080;
+}
+
+menu a:hover {
+    background-color: lightslategrey;
+}
+
+main {
+    width: 90vw;
+    background-color: #fff;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+article > h2 {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+p.year {
+    text-align: center;
+    margin-top: 18px;
+    font-size: 1.3rem;
+    margin-right: 23px;
+}
+
+article > p {
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 20px;
+}
+
+blockquote {
+    margin-top: 20px;
+}
+
+.image-faustina, .image-clara, .image-joana, .image-teresinha, .image-filomena, .image-marta, .image-davila, .image-rita {
+    width: 300px;
+    margin: auto;
+    display: block;
+}
+

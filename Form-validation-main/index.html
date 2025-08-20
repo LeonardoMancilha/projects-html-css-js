@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Validando um Formulário</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  <section class="container">
+    <h1>Formulário de Cadastro</h1>
+    <ul>
+      <li>Usuário só poderá conter letras e/ou números</li>
+      <li>Usuário deverá conter entre 3 e 12 caracteres</li>
+      <li>Senha precisa conter entre 6 e 12 caracteres</li>
+    </ul>
+    <form action="/" method="post" class="form">
+      <label for="iname">Nome</label>
+      <input type="text" name="name" id="iname" class="name validar">
+      <label for="isobrenome">Sobrenome</label>
+      <input type="text" name="sobrenome" id="isobrenome" class="sobrenome validar">
+      <label for="icpf">CPF</label>
+      <input type="text" name="CPF" id="icpf" class="cpf validar">
+      <label for="iusuario">Usuário</label>
+      <input type="text" name="usuario" id="iusuario" class="usuario validar">
+      <label for="isenha">Senha</label>
+      <input type="password" name="senha" id="isenha" class="senha validar">
+      <label for="irepetirsenha">Repetir Senha</label>
+      <input type="password" name="repetirSenha" id="irepetirsenha" class="repetirSenha validar">
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+  <script src="./assets/js/validCpf.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>

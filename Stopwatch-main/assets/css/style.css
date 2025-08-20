@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    outline: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: hwb(194 12% 55% / 0.64);
+    --primary-color-darker: hwb(193 4% 76% / 0.64);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: var(--primary-color);
+    font-family: 'Open sans', sans-serif;
+    line-height: 1.5em;
+}
+
+section.container {
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 19px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+button {
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+button.start {
+    background-color: #b2d1a1;
+}
+
+button.myStop {
+    background-color: #d1cba1;
+}
+
+button.delete {
+    background-color: #d1a1a1;
+}
+
+button:hover {
+    background-color: #a1c0d1;
+}
+
+.pausado {
+    color: #ff0000;
+}

@@ -1,0 +1,52 @@
+section.container {
+    position: relative;
+}
+
+h1.subject {
+    position: absolute;
+    left: 45%;
+    top: 253px;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: #a9a9a9;
+    content: "dark";
+}
+
+.mystyle {
+    background-color: #000000;
+}
+
+button {
+    position: absolute;
+    left: 45.7%;
+    top: 316px;
+    background-color: #a9a9a9;
+    border: none;
+    transition: 2s;
+    max-width: 135px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 14px;
+}
+
+button:hover {
+    background-color: #000000;
+}
+
+@media (max-width: 500px) {
+    h1.subject {
+        position: absolute;
+        left: 30%;
+    }
+    button {
+        position: absolute;
+        left: 34%;
+        transition: auto;
+    }
+    p.subject {
+        color: #fff;
+    }
+}
